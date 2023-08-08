@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "Direct Fitting of Gaussian Mixture Models"
-date:   2019-05-29 22:21:59 +00:00
+title:  "Data Free Class-Incremental Learning for Gesture Recognition"
 image: /images/crv19.png
 categories: research
-author: "Leo Keselman"
+author: "Zhenyu Lu"
 authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
-venue: "Computer and Robot Vision Conference"
-arxiv: https://arxiv.org/abs/1904.05537
+venue: "ECCV"
 slides: /pdfs/crv19-slides.pdf
 code: https://github.com/leonidk/direct_gmm
 website: https://leonidk.github.io/direct_gmm/
