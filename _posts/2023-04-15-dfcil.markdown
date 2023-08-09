@@ -5,11 +5,9 @@ date:   2023-03-14 22:21:59 +00:00
 image: /images/crv19.png
 categories: research
 author: "Zhenyu Lu"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
+authors: "Shubhra Aich1∗, Jesus Ruiz-Santaquiteria1∗, <strong>Zhenyu Lu<strong>, Prachi Garg, K J Joseph,
+Alvaro Fernandez Garcia, Vineeth N Balasubramanian, Kenrick Kin, Chengde Wan, Necati Cihan Camgoz, Shugao Ma, Fernando De la Torre"
 venue: "ECCV"
-slides: /pdfs/crv19-slides.pdf
-code: https://github.com/leonidk/direct_gmm
-website: https://leonidk.github.io/direct_gmm/
 ---
-
-A formulation for fitting Gaussian Mixture Models (GMMs) directly to geometric objects, such as a triangular mesh. This method produces more robust results and produces an improvement in 3D registration for both meshes and RGB-D frames. 
+We proposed a boundary-aware prototypical model inversion method to generate synthetic sample replay to
+reduce catastrophic forgetting when registering new classes to a model used for skeletal gesture detection.
