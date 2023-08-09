@@ -74,7 +74,9 @@
               {{post.authors}}
 
               <br>
+	      {% if post.venue %}
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              {% endif %}
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
@@ -94,8 +96,8 @@
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
               {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
