@@ -1,15 +1,10 @@
 ---
 layout: post
-title:  "Fuzzy Metaballs: Approximate Differentiable Rendering with Algebraic Surfaces"
-date:   2022-07-21 22:21:59 +00:00
-image: /images/fuzzy22.png
+title:  "Jefferson HAB Detection Project"
+date:   2021-010-21 22:21:59 +00:00
+image: /images/hab.png
 categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
-venue: "European Conference on Computer Vision"
-arxiv: https://arxiv.org/abs/2207.10606
-code: https://github.com/leonidk/fuzzy-metaballs
-website: https://leonidk.github.io/fuzzy-metaballs/
-youtube: https://www.youtube.com/watch?v=Ec7cxEc9eOU
+paper: https://github.com/leonidk/fuzzy-metaballs
 ---
-An approximate differentiable renderer for a compact, interpretable representation, which we call Fuzzy Metaballs. Our approximate renderer focuses on rendering shapes via depth maps and silhouettes. It sacrifices fidelity for utility, producing fast runtimes and high-quality gradient information that can be used to solve vision tasks.
+We implemented a low-resolution fluorometer that can keep track of the fluorescence level and temperature remotely
+and update the collected data synchronously to the server for analysis.
