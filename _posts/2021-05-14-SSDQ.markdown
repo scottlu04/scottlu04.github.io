@@ -6,5 +6,5 @@ image: /images/SSDQ.png
 categories: research
 paper: https://github.com/leonidk/modecfg
 ---
- We Modified an existing low-rank Hankel matrix data recovery algorithm for multi-channel electrical signals by
+We Modified an existing low-rank Hankel matrix data recovery algorithm for multi-channel electrical signals by
 means of clustering the input dataset into different groups and processing them separately and designed and revised a GUI for the data recovery model and the GUI has been released by EPRI.
