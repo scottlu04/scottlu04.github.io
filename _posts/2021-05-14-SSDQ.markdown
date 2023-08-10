@@ -3,8 +3,9 @@ layout: post
 title:  "Data Clustering and GUI Design for Data Recovery"
 date:   2021-05-14 22:21:59 +00:00
 image:  images/ssdq.png
-image:  images/epri.png
+sponsor:  images/epri.png
 categories: research
 ---
-We Modified an existing low-rank Hankel matrix data recovery algorithm for multi-channel electrical signals by
-means of clustering the input dataset into different groups and processing them separately and designed and revised a GUI for the data recovery model and the GUI has been released by EPRI.
+Modified a low-rank Hankel matrix data recovery algorithm for multi-channel electrical signals by
+means of clustering the input dataset into different groups and processing them separately
+We designed and revised a GUI for the data recovery model.

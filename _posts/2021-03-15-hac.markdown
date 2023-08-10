@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Human Action Recognition and Pose Regression Project"
+date:   2021-3-21 22:21:59 +00:00
+image: 
+categories: project
+---
+Constructed a neural network model by means of connecting RESNET-18 and LSTM in order to perform a regression task on 17 joints human pose video dataset(H36M) and output 3D body joint position, resulting in a 75mm MPJPE with 500 videos for training. 
+Constructed a neural network model by connecting Conv3D/Conv2D, LSTM and MLP to perform a classification task on a 11-class human action video dataset(UCF-11), which achieved an 84.3\% accuracy.

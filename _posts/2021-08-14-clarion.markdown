@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Data Clustering and GUI Design for Data Recovery"
+date:   2021-08-14 22:21:59 +00:00
+image:  images/clarion.png
+categories: research
+---
+Constructed a computational model for the effortful control process under the Clarion framework, which
+simulated each participant as an artificial agent with the explicit processing represented by multidimensional
+condition-action pair and implicit processing represented by neural networks.
