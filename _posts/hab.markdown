@@ -2,7 +2,7 @@
 layout: post
 title:  "Jefferson HAB Detection Project"
 date:   2021-10-21 22:21:59 +00:00
-image: images/hab.png
+image: /images/hab.png
 categories: project
 paper: https://github.com/leonidk/fuzzy-metaballs
 poster: /posters/hab.pdf
