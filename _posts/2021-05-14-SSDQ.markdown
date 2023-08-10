@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Clustering and GUI Design for Data Recovery"
 date:   2021-05-14 22:21:59 +00:00
-image: /images/ssdq.png
+image:  images/ssdq.png
 categories: research
 ---
 We Modified an existing low-rank Hankel matrix data recovery algorithm for multi-channel electrical signals by

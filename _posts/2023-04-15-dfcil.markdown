@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Free Class-Incremental Learning for Gesture Recognition"
 date:   2023-03-14 22:21:59 +00:00
-image: /images/dfcil.png
+image: images/dfcil.png
 categories: research
 author: "Zhenyu Lu"
 authors: "Shubhra Aich1∗, Jesus Ruiz-Santaquiteria1∗, <strong>Zhenyu Lu</strong>, Prachi Garg, K J Joseph,
