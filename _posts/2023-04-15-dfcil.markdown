@@ -2,12 +2,13 @@
 layout: post
 title:  "Data Free Class-Incremental Learning for Gesture Recognition"
 date:   2023-03-14 22:21:59 +00:00
-image: /images/DFCIL.png
+image: /images/dfcil.png
 categories: research
 author: "Zhenyu Lu"
 authors: "Shubhra Aich1∗, Jesus Ruiz-Santaquiteria1∗, <strong>Zhenyu Lu</strong>, Prachi Garg, K J Joseph,
 Alvaro Fernandez Garcia, Vineeth N Balasubramanian, Kenrick Kin, Chengde Wan, Necati Cihan Camgoz, Shugao Ma, Fernando De la Torre"
 venue: "ECCV"
+paper: https://drive.google.com/file/d/1kD5VhPk3liCcJq6dwd0h88oo8iuh9GOm/view?usp=drive_link
 ---
 We proposed a boundary-aware prototypical model inversion method to generate synthetic sample replay to
 reduce catastrophic forgetting when registering new classes to a model used for skeletal gesture detection.

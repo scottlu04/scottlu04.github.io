@@ -3,9 +3,9 @@ layout: post
 title:  "Jefferson HAB Detection Project"
 date:   2021-10-21 22:21:59 +00:00
 image: /images/hab.png
-categories: research
+categories: project
 paper: https://github.com/leonidk/fuzzy-metaballs
-poster: 
+poster: /posters/hab.pdf
 ---
 We implemented a low-resolution fluorometer that can keep track of the fluorescence level and temperature remotely
 and update the collected data synchronously to the server for analysis.
