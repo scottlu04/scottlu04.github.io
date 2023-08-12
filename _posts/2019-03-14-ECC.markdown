@@ -2,7 +2,7 @@
 layout: post
 title:  "Voluntary Kindergarten Teaching Assistant"
 date:   2019-03-14 22:21:59 +00:00
-image:  images/ecc2.png
+image:  images/ecc2.jpg
 categories: Volunteer
 ---
 Participated in teaching kindergarten at the <a href="https://www.skidmore.edu/ecc/index.php"> Early Childhood Center (ECC) </a> at Skidmore College.
