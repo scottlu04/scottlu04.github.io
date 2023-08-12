@@ -8,4 +8,4 @@ categories: project
 Designed a machine learning model that can estimate Energy Expenditure from multiple wearable sensor
 modalities.
 Training and evaluating on three datasets and appiled the model to run experiments on subjects wearing
-<a href="www.empatica.com/embraceplus/">Empatica watch </a> to estimate their Energy Expediture in their daily life.
+<a href="www.empatica.com/embraceplus/"> Empatica watch </a> to estimate their Energy Expediture in their daily life.
