@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "BrewCLIP"
+date:   2023-06-14 22:21:59 +00:00
+venue: "will submit to ICLR"
+image:  
+categories: project
+---
+Build an audio-image model to learn joint representation.

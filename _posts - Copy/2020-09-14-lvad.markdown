@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "LVAD Attack Detection Project"
+date:   2020-10-14 22:21:59 +00:00
+image: 
+categories: project
+---
+Constructed an ELM model to simulate and detect malicious attacks on the LVAD (Left Ventricular Assist
+Devices) with a self-generated normal and abnormal dataset and conducted a 10-fold cross validation method
+and achieved 84.1% accuracy.
