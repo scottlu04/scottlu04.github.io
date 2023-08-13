@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Neuroscience Study"
+title:  "Impact of Mindset on Exam Stress"
 date:   2016-10-21 22:21:59 +00:00
-image: 
+image: images/exam_stess.jpg
 categories: project
+paper: /paper/exam_stress.pdf
 ---
-Collaborated with three members in order to work on a research project about how students’ mindsets affect their pressure towards exams and proved our hypothesis by analyzing participants’ changes of heartbeats and cortisol levels in their salivas and presented our study to a group of professionals
+Investigated how students’ mindsets affect their pressure towards exams and proved our hypothesis by analyzing participants’ changes of heartbeats and cortisol levels in their salivas and presented our study to a group of professionals.

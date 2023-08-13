@@ -2,8 +2,9 @@
 layout: post
 title:  "Data-driven Energy Expenditure Estimation from Wearables"
 date:   2021-02-14 22:21:59 +00:00
-image:  images/clarion.png
+image:  images/eee2.png
 categories: project
+paper: /paper/eee.pdf
 ---
 Designed a machine learning model that can estimate Energy Expenditure from multiple wearable sensor
 modalities.
