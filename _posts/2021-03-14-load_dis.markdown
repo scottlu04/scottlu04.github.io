@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🤖Bayesian Dictionary Learning for Load Disaggregation"
+title:  "🤖🔌Bayesian Dictionary Learning for Load Disaggregation"
 date:   2021-03-14 22:21:59 +00:00
 image:  images/load_dis.png
 categories: research

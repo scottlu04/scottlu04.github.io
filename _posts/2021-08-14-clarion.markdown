@@ -2,7 +2,7 @@
 layout: post
 title:  "🤖🧠Modeling for Self-Control Mechanisms with Clarion Architecture"
 date:   2021-08-14 22:21:59 +00:00
-image:  images/clarion.png
+image:  images/self_control.png
 categories: research
 ---
 Work under under the supervision of Prof. Ron Sun
