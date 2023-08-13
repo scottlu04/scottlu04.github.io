@@ -12,6 +12,6 @@ Alvaro Fernandez Garcia, Vineeth N Balasubramanian, Kenrick Kin, Chengde Wan, Ne
 venue: "Accepted at ECCV"
 paper: /paper/dfcil.pdf
 ---
-<a Work under under the supervision of Prof. Fernando De la Torre </a> 
+<p>Work under under the supervision of Prof. Fernando De la Torre </p>
 Proposed a boundary-aware prototypical model inversion method to generate synthetic sample replay to
 reduce catastrophic forgetting when registering new classes to a model used for skeletal gesture detection.
