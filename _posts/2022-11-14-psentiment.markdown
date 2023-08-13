@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Personalized Multi-modal Sentiment Analysis"
+title:  "🤖🧠Personalized Multi-modal Sentiment Analysis"
 date:   2022-11-14 22:21:59 +00:00
 image:  images/psent.png
 categories: project

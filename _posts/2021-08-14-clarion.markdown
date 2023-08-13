@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Clustering and GUI Design for Data Recovery"
+title:  "🤖🧠Modeling for Self-Control Mechanisms with Clarion Architecture"
 date:   2021-08-14 22:21:59 +00:00
 image:  images/clarion.png
 categories: research

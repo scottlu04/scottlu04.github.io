@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LVAD Attack Detection Project"
+title:  "🤖🚶LVAD Attack Detection Project"
 date:   2020-10-14 22:21:59 +00:00
 image: images/lvad.jpg
 categories: project

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sentiment Analysis Project"
+title:  "🤖🧠Sentiment Analysis Project"
 date:   2021-03-14 22:21:59 +00:00
 image:  images/sent.jpg
 categories: other

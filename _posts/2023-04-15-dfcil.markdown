@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Free Class-Incremental Learning for Gesture Recognition"
+title:  "🤖🚶👋Data Free Class-Incremental Learning for Gesture Recognition"
 date:   2023-03-14 22:21:59 +00:00
 image: images/dfcil.png
 sponsor: images/meta.png
