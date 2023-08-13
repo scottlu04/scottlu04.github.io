@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "🤖🌍Jefferson HAB Detection Project"
+title:  "Jefferson HAB Detection Project"
+tag: "🤖🌍"
 date:   2021-10-21 22:21:59 +00:00
 image: /images/hab.png
 sponsor: /images/ibm.png

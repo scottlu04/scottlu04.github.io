@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "<a 🧠</a> Impact of Mindset on Exam Stress"
+title:  "Impact of Mindset on Exam Stress"
+tag: "🧠"
 date:   2016-10-21 22:21:59 +00:00
 image: images/exam_stess.jpg
 categories: project

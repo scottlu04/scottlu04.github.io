@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "🤖🧠Modeling for Self-Control Mechanisms with Clarion Architecture"
+title:  "Modeling for Self-Control Mechanisms with Clarion Architecture"
+tag: "🤖🧠"
 date:   2021-08-14 22:21:59 +00:00
 image:  images/self_control.png
 categories: research
