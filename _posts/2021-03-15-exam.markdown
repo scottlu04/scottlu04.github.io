@@ -3,7 +3,7 @@ layout: post
 title:  "Impact of Mindset on Exam Stress"
 tag: "🧠"
 date:   2016-10-21 22:21:59 +00:00
-image: images/exam_stess.jpg
+image: images/exam_stress.jpg
 categories: project
 paper: /paper/exam_stress.pdf
 ---

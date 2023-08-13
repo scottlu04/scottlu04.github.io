@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Optimism Intervention for Patients with Serious Illness"
+tag: "🧠"
+date:   2019-4-21 22:21:59 +00:00
+image: images/optim.png
+categories: project
+paper: /paper/optim.pdf
+---
+Designed a proposal of optimism intervention therapy for patients with serious illness.   
