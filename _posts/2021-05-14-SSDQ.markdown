@@ -8,6 +8,7 @@ sponsor:  images/epri.png
 categories: research
 ---
 Work under under the supervision of Prof. Meng Wang
+<br>
 Modified a low-rank Hankel matrix data recovery algorithm for multi-channel electrical signals by
-means of clustering the input dataset into different groups and processing them separately
+means of clustering the input dataset into different groups and processing them separately.
 We designed and revised a GUI for the data recovery model.

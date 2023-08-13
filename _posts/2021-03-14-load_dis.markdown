@@ -6,6 +6,8 @@ date:   2021-03-14 22:21:59 +00:00
 image:  images/load_dis.png
 categories: research
 ---
-Work under under the supervision of Prof. Meng Wang
+Work under under the supervision of Prof. Meng Wang 
+<br>
 Assisted in the optimization of a Dictionary learning model for electrical load disaggregation by introducing a Bayesian model with Gibbs sampling and successfully limited the TER down to 1.1%.
+<br>
 Assisted with the application of transfer learning to see if the dictionary learnt at the source domain (aggregated signal in CA) can be used to represent the pattern at the target domain (aggregated signal in NY).
