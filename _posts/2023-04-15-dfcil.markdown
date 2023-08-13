@@ -7,11 +7,12 @@ image: images/dfcil.png
 sponsor: images/meta.png
 categories: research
 author: "Zhenyu Lu"
-authors: "Shubhra Aich1∗, Jesus Ruiz-Santaquiteria1∗, <strong>Zhenyu Lu</strong>, Prachi Garg, K J Joseph,
+authors: "Shubhra Aich∗, Jesus Ruiz-Santaquiteria∗, <strong>Zhenyu Lu</strong>, Prachi Garg, K J Joseph,
 Alvaro Fernandez Garcia, Vineeth N Balasubramanian, Kenrick Kin, Chengde Wan, Necati Cihan Camgoz, Shugao Ma, Fernando De la Torre"
 venue: "Accepted at ECCV"
 paper: /paper/dfcil.pdf
 ---
-<p>Work under under the supervision of Prof. Fernando De la Torre </p>
+Work under under the supervision of Prof. Fernando De la Torre 
+<br>
 Proposed a boundary-aware prototypical model inversion method to generate synthetic sample replay to
 reduce catastrophic forgetting when registering new classes to a model used for skeletal gesture detection.
