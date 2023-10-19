@@ -3,8 +3,10 @@ layout: post
 title:  "BrewCLIP: A Bifurcated Representation Learning Framework for
 Audio-Visual Retrieval"
 date:   2023-06-14 22:21:59 +00:00
-venue: "Submitted to EACL 2024"
-image:  images/brewclip.pdf
+author: "Zhenyu Lu"
+authors: "Zhenyu Lu,Ada Martin, Lakshay Sethi"
+venue: "Submitted to EACL"
+image:  images/brewclip.png
 categories: project
 ---
 Analyzed and compare End-to-End models, pipeline models, and our proposed dual-channel model for robust audio-image retrieval on a variety of datasets.
