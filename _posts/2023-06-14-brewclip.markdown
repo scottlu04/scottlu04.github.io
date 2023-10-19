@@ -4,7 +4,7 @@ title:  "BrewCLIP: A Bifurcated Representation Learning Framework for
 Audio-Visual Retrieval"
 date:   2023-06-14 22:21:59 +00:00
 author: "Zhenyu Lu"
-authors: "Zhenyu Lu,Ada Martin, Lakshay Sethi"
+authors: "Zhenyu Lu, Ada Martin, Lakshay Sethi"
 venue: "Submitted to EACL"
 image:  images/brewclip.png
 categories: project
