@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "BrewCLIP"
+title:  "BrewCLIP: A Bifurcated Representation Learning Framework for
+Audio-Visual Retrieval"
 date:   2023-06-14 22:21:59 +00:00
-venue: "will submit to ICLR"
-image:  
+venue: "Submitted to EACL 2024"
+image:  images/brewclip.pdf
 categories: project
 ---
-Build an audio-image model to learn joint representation.
+Analyzed and compare End-to-End models, pipeline models, and our proposed dual-channel model for robust audio-image retrieval on a variety of datasets.
