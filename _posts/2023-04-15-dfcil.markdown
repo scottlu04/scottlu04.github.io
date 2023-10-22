@@ -9,7 +9,7 @@ categories: research
 author: "Zhenyu Lu"
 authors: "Shubhra Aich∗, Jesus Ruiz-Santaquiteria∗, <strong>Zhenyu Lu</strong>, Prachi Garg, K J Joseph,
 Alvaro Fernandez Garcia, Vineeth N Balasubramanian, Kenrick Kin, Chengde Wan, Necati Cihan Camgoz, Shugao Ma, Fernando De la Torre"
-venue: "Accepted at ECCV"
+venue: "Accepted at ICCV"
 paper: /paper/dfcil.pdf
 ---
 Work under under the supervision of Prof. Fernando De la Torre 
