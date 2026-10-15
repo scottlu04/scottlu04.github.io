@@ -16,12 +16,15 @@ server and database are not managed by this repository.
 
 ### Publish the Cloudflare homepage
 
-The initial deployment is live. Automatic publication is **not enabled yet**.
+The homepage is live and automatic publication is **enabled**.
 The workflow `.github/workflows/cloudflare.yml` is gated by repository variable
 `CLOUDFLARE_DEPLOY_ENABLED=true` and requires repository secret
 `CLOUDFLARE_API_TOKEN` with Workers Scripts Edit permission for the account.
-Provision and authorize the secret before enabling the variable. Once enabled,
-pushes to `master` build and publish the homepage and its sitemap together.
+The authorized deployment token is stored in GitHub Actions Secrets; it has only
+Workers Scripts Write permission in this Cloudflare account. Pushes to `master`
+build and publish the homepage and its sitemap together. No manual upload or
+Search Console resubmission is needed for routine updates. To pause deployment,
+set `CLOUDFLARE_DEPLOY_ENABLED=false` without deleting the existing website.
 Never commit tokens or put them in workflow source.
 
 The same build can be run manually with Ruby 3.3 and Python 3.12:
@@ -37,7 +40,7 @@ python deployment/deploy.py
 ```
 
 The initial upload used the connected Cloudflare API with a short-lived asset
-upload session. No persistent deployment credential is stored in the repository.
+upload session. No deployment credential is committed in repository source.
 `deployment/metadata.json` records the Worker settings. Routine deployment does
 not change DNS or Access. The 34 MB `/paper/dfcil.pdf` remains on GitHub Pages;
 the Cloudflare URL redirects there because it exceeds the static asset limit.
@@ -72,8 +75,8 @@ For projects hosted elsewhere, add an absolute `url` field to keep the link stab
 on both sites (WAG demonstrates this). A local `path` refers to a published page,
 not a request to deploy a new project. On Cloudflare the preparation step removes
 the GitHub project sitemap, so external project addresses are not falsely listed
-under `scottlu.top`. Until automatic Cloudflare publication is enabled, also run
-the Cloudflare publication steps above after changing homepage content.
+under `scottlu.top`. The enabled Cloudflare workflow publishes homepage changes
+from the same `master` commit automatically.
 
 `path` is required and must be a published path under `https://scottlu04.github.io/`,
 starting with a single `/`. `name` is required; `code` and `description` are optional.
