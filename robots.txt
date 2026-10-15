@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /robots.txt
+sitemap: false
+---
+Sitemap: {{ "/sitemap.xml" | absolute_url }}
+Sitemap: {{ "/projects-sitemap.xml" | absolute_url }}
