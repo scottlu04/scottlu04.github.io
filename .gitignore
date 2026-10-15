@@ -9,3 +9,8 @@ Gemfile.lock
 node_modules
 package.json
 favicon.ico
+_cloudflare_site/
+deployment/.private/
+__pycache__/
+*.pyc
+!deployment/Gemfile

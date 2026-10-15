@@ -2,6 +2,56 @@
 
 Zhenyu Lu's webpage
 
+## Hosting
+
+The canonical homepage is **https://scottlu.top/**, deployed as Cloudflare Worker
+`scottlu-home` with Static Assets. Source remains in this repository. The existing
+GitHub Pages site stays online and its homepage canonical points to the new domain.
+This is a canonical hint, not an HTTP redirect. WAG stays at its existing GitHub
+Pages URL; do not set a GitHub Pages custom domain because that would change the
+inherited addresses of project sites.
+
+`invest.scottlu.top` is a separate, private application. Its DNS, Access policies,
+server and database are not managed by this repository.
+
+### Publish the Cloudflare homepage
+
+The initial deployment is live. Automatic publication is **not enabled yet**.
+The workflow `.github/workflows/cloudflare.yml` is gated by repository variable
+`CLOUDFLARE_DEPLOY_ENABLED=true` and requires repository secret
+`CLOUDFLARE_API_TOKEN` with Workers Scripts Edit permission for the account.
+Provision and authorize the secret before enabling the variable. Once enabled,
+pushes to `master` build and publish the homepage and its sitemap together.
+Never commit tokens or put them in workflow source.
+
+The same build can be run manually with Ruby 3.3 and Python 3.12:
+
+```sh
+export BUNDLE_GEMFILE=deployment/Gemfile
+bundle install
+bundle exec jekyll build --config _config.yml,deployment/cloudflare.yml
+python deployment/prepare.py
+python deployment/deploy.py --dry-run
+# Supply CLOUDFLARE_API_TOKEN through your secret manager/environment first.
+python deployment/deploy.py
+```
+
+The initial upload used the connected Cloudflare API with a short-lived asset
+upload session. No persistent deployment credential is stored in the repository.
+`deployment/metadata.json` records the Worker settings. Routine deployment does
+not change DNS or Access. The 34 MB `/paper/dfcil.pdf` remains on GitHub Pages;
+the Cloudflare URL redirects there because it exceeds the static asset limit.
+
+For future albums, keep media files in object storage and descriptions and
+permissions in a separate database. Add authenticated API routes to
+`deployment/worker.mjs` and explicitly configure `run_worker_first` for those
+routes. No media storage, database or upload/admin endpoint has been created yet.
+
+Search Console has a DNS-verified Domain property for `scottlu.top`. Keep the
+verification TXT record. The new site's `sitemap.xml` contains only its own
+existing public URLs; `robots.txt` advertises it. New public pages built by Jekyll
+are included automatically. Private application URLs must not be added.
+
 ## Add a project website
 
 Edit `_data/projects.yml` and append one entry after the project is publicly deployed:
@@ -17,6 +67,13 @@ Commit the change to `master`. GitHub Pages' existing Jekyll build will update:
 
 - The homepage's Projects section, with crawlable project and code links.
 - `/projects-sitemap.xml`, with each registered project website listed once.
+
+For projects hosted elsewhere, add an absolute `url` field to keep the link stable
+on both sites (WAG demonstrates this). A local `path` refers to a published page,
+not a request to deploy a new project. On Cloudflare the preparation step removes
+the GitHub project sitemap, so external project addresses are not falsely listed
+under `scottlu.top`. Until automatic Cloudflare publication is enabled, also run
+the Cloudflare publication steps above after changing homepage content.
 
 `path` is required and must be a published path under `https://scottlu04.github.io/`,
 starting with a single `/`. `name` is required; `code` and `description` are optional.

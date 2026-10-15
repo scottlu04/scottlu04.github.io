@@ -3,5 +3,6 @@
 # Keep code repositories in code, not path. See README.md for an example.
 - name: "Wearable As Graph (WAG)"
   path: "/Wearable-As-Graph-WAG/"
+  url: "https://scottlu04.github.io/Wearable-As-Graph-WAG/"
   code: "https://github.com/scottlu04/Wearable-As-Graph-WAG"
   description: "Query-conditioned graph retrieval for LLM reasoning over personalized wearable data."

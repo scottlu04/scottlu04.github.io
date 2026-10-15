@@ -2,12 +2,13 @@
 <table aria-label="Project websites"
   style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   {% for project in site.data.projects %}
+  {% assign project_url = project.url | default: project.path | absolute_url %}
   <tr>
     <td style="padding:1.5%;vertical-align:top">
-      <h3><a href="{{ project.path | absolute_url | escape }}">{{ project.name | escape }}</a></h3>
+      <h3><a href="{{ project_url | escape }}">{{ project.name | escape }}</a></h3>
       {% if project.description %}<p>{{ project.description | escape }}</p>{% endif %}
       <p>
-        <a href="{{ project.path | absolute_url | escape }}">Project page</a>
+        <a href="{{ project_url | escape }}">Project page</a>
         {% if project.code %} / <a href="{{ project.code | escape }}">Code</a>{% endif %}
       </p>
     </td>

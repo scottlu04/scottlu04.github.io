@@ -6,6 +6,7 @@
 name: Zhenyu Lu(Scott) 
 url: "https://scottlu04.github.io"
 baseurl: ""
+canonical_home: "https://scottlu.top/"
 
 # Short bio or description (displayed in the header)
 # description: the profile of an engineer, researcher and software developer
@@ -90,3 +91,6 @@ exclude:
   - todo.txt
   - _temp/index.html
   - _temp/
+  - deployment/
+  - _cloudflare_site/
+  - .github/
