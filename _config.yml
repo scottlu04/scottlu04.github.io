@@ -94,3 +94,4 @@ exclude:
   - deployment/
   - _cloudflare_site/
   - .github/
+  - vendor/
