@@ -2,6 +2,19 @@
 
 Zhenyu Lu's webpage
 
+## Current public homepage
+
+Edit `homepage/` to update **https://scottlu.top/**. This is the approved Claude
+Design export: Academic has the complete profile; Lab, World, Digital Twin,
+Portal and the old Exploration route are matching placeholders. Their `noindex`
+metadata keeps unfinished pages out of the sitemap. The shared styles are
+`academic.css` and `topbar.css`. Keep placeholder `noindex` until real content is
+ready. The build validates local references before publication.
+
+Only this curated static directory is uploaded to Cloudflare. The original
+design archive, uploaded source documents and design-editor files are not
+published. The older Jekyll source serves GitHub Pages independently.
+
 ## Hosting
 
 The canonical homepage is **https://scottlu.top/**, deployed as Cloudflare Worker
@@ -27,12 +40,9 @@ Search Console resubmission is needed for routine updates. To pause deployment,
 set `CLOUDFLARE_DEPLOY_ENABLED=false` without deleting the existing website.
 Never commit tokens or put them in workflow source.
 
-The same build can be run manually with Ruby 3.3 and Python 3.12:
+The same build can be run manually with Python 3.12:
 
 ```sh
-export BUNDLE_GEMFILE=deployment/Gemfile
-bundle install
-bundle exec jekyll build --config _config.yml,deployment/cloudflare.yml
 python deployment/prepare.py
 python deployment/deploy.py --dry-run
 # Supply CLOUDFLARE_API_TOKEN through your secret manager/environment first.
@@ -52,8 +62,9 @@ routes. No media storage, database or upload/admin endpoint has been created yet
 
 Search Console has a DNS-verified Domain property for `scottlu.top`. Keep the
 verification TXT record. The new site's `sitemap.xml` contains only its own
-existing public URLs; `robots.txt` advertises it. New public pages built by Jekyll
-are included automatically. Private application URLs must not be added.
+existing indexable public URLs; `robots.txt` advertises it. New HTML pages in
+`homepage/` are included automatically unless marked `noindex`. Private
+application URLs must not be added.
 
 ## Add a project website
 
@@ -76,7 +87,9 @@ on both sites (WAG demonstrates this). A local `path` refers to a published page
 not a request to deploy a new project. On Cloudflare the preparation step removes
 the GitHub project sitemap, so external project addresses are not falsely listed
 under `scottlu.top`. The enabled Cloudflare workflow publishes homepage changes
-from the same `master` commit automatically.
+from `homepage/` on the same `master` commit automatically. The Jekyll project
+registry does not modify the new Cloudflare homepage; add its links directly
+to `homepage/index.html` when needed.
 
 `path` is required and must be a published path under `https://scottlu04.github.io/`,
 starting with a single `/`. `name` is required; `code` and `description` are optional.

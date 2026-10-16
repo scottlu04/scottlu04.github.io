@@ -13,20 +13,12 @@ jobs:
     # Enable after the deployment secret has been provisioned and authorized.
     if: vars.CLOUDFLARE_DEPLOY_ENABLED == 'true'
     runs-on: ubuntu-latest
-    env:
-      BUNDLE_GEMFILE: deployment/Gemfile
     steps:
       - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build public site
-        run: bundle exec jekyll build --config _config.yml,deployment/cloudflare.yml
-      - name: Prepare canonical sitemap and public assets
+      - name: Prepare static homepage, sitemap and public assets
         run: python deployment/prepare.py
       - name: Publish Worker
         env:

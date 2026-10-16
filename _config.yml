@@ -95,3 +95,4 @@ exclude:
   - _cloudflare_site/
   - .github/
   - vendor/
+  - homepage/
