@@ -1,0 +1,12 @@
+/* Keep the original explorer self-contained inside the academic page. */
+:root { color-scheme: light; --bg: #fff; --surface: #fff; --surface-2: #f5f5f5; --text: #111; --muted: #555; --faint: #8a8a8a; --line: #e6e6e6; --link: #1a73e8; --t-physiological: #cf4b5e; --t-sleep: #5765d4; --t-activity: #1f8f80; --t-lifestyle: #d1892a; --t-mental: #8b56bd; --t-environmental: #3d93c9; --t-demographic: #6d7480; }
+html, body { margin: 0; padding: 0; overflow-x: hidden; }
+.embed-content { padding: 0 1px 1px; }
+.toolbar { margin-top: 0; }
+.range { flex-wrap: wrap; }
+.panel { background: var(--surface); }
+@media (max-width: 380px) {
+  .toggles { gap: 8px; flex-wrap: wrap; }
+  .range { gap: 6px; font-size: .8rem; }
+  .chip { font-size: .72rem; }
+}

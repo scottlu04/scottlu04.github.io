@@ -444,7 +444,5 @@
 .lab-project__links a { color: var(--accent); font-size: .82rem; border-bottom: 1px solid var(--border); padding-bottom: 3px; }
 
 .lab-project__figure { margin: 28px 0 0; }
-.lab-project__figure > a { display: block; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
-.lab-project__figure img { display: block; width: 100%; height: auto; }
 .lab-project__figure figcaption { margin-top: 10px; color: var(--muted); font-size: .72rem; line-height: 1.7; }
-.lab-project__figure figcaption a { color: var(--accent); white-space: nowrap; }
+.lab-project__graph { display: block; width: 100%; height: 920px; border: 0; background: #fff; color-scheme: light; }
