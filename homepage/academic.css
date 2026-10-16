@@ -434,3 +434,11 @@
 .placeholder-body .footer { width: 100%; }
 @media (max-width: 560px) { .placeholder-page { padding-top: 56px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } }
+
+/* Research projects use the same typography and rules as the academic page. */
+.lab-project { margin-top: 40px; padding: 28px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.lab-project__label { font-family: var(--mono); font-size: .65rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+.lab-project h2 { font-family: var(--serif); font-size: clamp(1.3rem, 3vw, 1.65rem); font-weight: 400; line-height: 1.35; }
+.lab-project__description { margin-top: 18px; color: var(--muted); font-size: .9rem; line-height: 1.8; }
+.lab-project__links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 24px; }
+.lab-project__links a { color: var(--accent); font-size: .82rem; border-bottom: 1px solid var(--border); padding-bottom: 3px; }
