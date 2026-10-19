@@ -19,10 +19,12 @@ published. The older Jekyll source is retained as historical source only.
 ## Hosting
 
 The canonical homepage is **https://scottlu.top/**, deployed as Cloudflare Worker
-`scottlu-home` with Static Assets. Source remains in this repository. GitHub Pages
-for this repository was disabled on 2026-10-19; keep it disabled so the old
-personal homepage does not reappear. Cloudflare publication uses GitHub Actions
-independently. WAG is published from its own repository and stays at
+`scottlu-home` with Static Assets. Source remains in this repository. The legacy
+personal GitHub Pages site is being retired. The API rejected deactivation of
+this user-site repository; final unpublication is pending an authenticated
+GitHub Pages settings session. Keep the old homepage unpublished afterward.
+Cloudflare publication uses GitHub Actions independently. WAG is published from
+its own repository and stays at
 https://scottlu04.github.io/Wearable-As-Graph-WAG/.
 
 `invest.scottlu.top` is a separate, private application. Its DNS, Access policies,
