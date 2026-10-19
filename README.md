@@ -20,9 +20,11 @@ published. The older Jekyll source is retained as historical source only.
 
 The canonical homepage is **https://scottlu.top/**, deployed as Cloudflare Worker
 `scottlu-home` with Static Assets. Source remains in this repository. The legacy
-personal GitHub Pages site was unpublished on 2026-10-19, and its publishing
-branch is set to **None**. Keep Pages disabled so future commits do not restore
-the old homepage. Cloudflare publication uses GitHub Actions independently.
+personal GitHub Pages site was unpublished on 2026-10-19. Its source is set to
+**GitHub Actions**, with no workflow that publishes to Pages, to prevent this
+user-site repository from automatically restoring branch-based publication.
+Keep that setup; do not add a Pages deployment workflow. Cloudflare publication
+uses its separate GitHub Actions workflow.
 WAG is published from its own repository and stays at
 https://scottlu04.github.io/Wearable-As-Graph-WAG/.
 
