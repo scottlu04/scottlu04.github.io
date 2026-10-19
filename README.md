@@ -5,24 +5,25 @@ Zhenyu Lu's webpage
 ## Current public homepage
 
 Edit `homepage/` to update **https://scottlu.top/**. This is the approved Claude
-Design export: Academic has the complete profile; Lab, World, Digital Twin,
-Portal and the old Exploration route are matching placeholders. Their `noindex`
-metadata keeps unfinished pages out of the sitemap. The shared styles are
+Design export: Academic has the complete profile and Lab hosts the WAG project
+with its original interactive graph. World, Digital Twin, Portal and the old
+Exploration route are hidden placeholders. Their `noindex` metadata keeps
+unfinished pages out of the sitemap. The shared styles are
 `academic.css` and `topbar.css`. Keep placeholder `noindex` until real content is
 ready. The build validates local references before publication.
 
 Only this curated static directory is uploaded to Cloudflare. The original
 design archive, uploaded source documents and design-editor files are not
-published. The older Jekyll source serves GitHub Pages independently.
+published. The older Jekyll source is retained as historical source only.
 
 ## Hosting
 
 The canonical homepage is **https://scottlu.top/**, deployed as Cloudflare Worker
-`scottlu-home` with Static Assets. Source remains in this repository. The existing
-GitHub Pages site stays online and its homepage canonical points to the new domain.
-This is a canonical hint, not an HTTP redirect. WAG stays at its existing GitHub
-Pages URL; do not set a GitHub Pages custom domain because that would change the
-inherited addresses of project sites.
+`scottlu-home` with Static Assets. Source remains in this repository. GitHub Pages
+for this repository was disabled on 2026-10-19; keep it disabled so the old
+personal homepage does not reappear. Cloudflare publication uses GitHub Actions
+independently. WAG is published from its own repository and stays at
+https://scottlu04.github.io/Wearable-As-Graph-WAG/.
 
 `invest.scottlu.top` is a separate, private application. Its DNS, Access policies,
 server and database are not managed by this repository.
@@ -52,8 +53,9 @@ python deployment/deploy.py
 The initial upload used the connected Cloudflare API with a short-lived asset
 upload session. No deployment credential is committed in repository source.
 `deployment/metadata.json` records the Worker settings. Routine deployment does
-not change DNS or Access. The 34 MB `/paper/dfcil.pdf` remains on GitHub Pages;
-the Cloudflare URL redirects there because it exceeds the static asset limit.
+not change DNS or Access. The 34 MB `/paper/dfcil.pdf` remains in this repository;
+the Cloudflare URL redirects to its raw GitHub file because it exceeds the
+static asset limit. This download does not depend on GitHub Pages being enabled.
 
 For future albums, keep media files in object storage and descriptions and
 permissions in a separate database. Add authenticated API routes to
@@ -66,7 +68,11 @@ existing indexable public URLs; `robots.txt` advertises it. New HTML pages in
 `homepage/` are included automatically unless marked `noindex`. Private
 application URLs must not be added.
 
-## Add a project website
+## Legacy Jekyll project registry (inactive)
+
+The instructions below document the retired GitHub Pages setup. They are kept
+for historical reference and do not publish the current homepage. To add a
+project now, edit `homepage/lab.html`; pushes to `master` publish it to Cloudflare.
 
 Edit `_data/projects.yml` and append one entry after the project is publicly deployed:
 
